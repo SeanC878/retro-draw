@@ -1,7 +1,4 @@
-/**
- * COLORS should be an array of color strings,
- * approximately 8 of them.
- */
+
 export const COLORS = [
   'red',
   'orange',
@@ -10,13 +7,10 @@ export const COLORS = [
   'blue',
   'purple',
   'white',
-  'black'
+  'black',
+  'grey'
 ];
 
-/**
- * buildCellList creates and returns an 
- * array of empty cell objects
- */
 export function buildCellList() {
   const cellList = [];
 
